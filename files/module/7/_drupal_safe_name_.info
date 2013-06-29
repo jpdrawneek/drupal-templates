@@ -1,0 +1,9 @@
+name = ${real_name}
+description = This needs to be replaced.
+core = 7.x
+;package = 
+;php = 
+version = 7.x-1.0
+;dependencies[] = 
+;files[] = 
+;configure = 

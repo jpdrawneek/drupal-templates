@@ -1,0 +1,43 @@
+<?php
+<#assign licenseFirst = "/** ">
+<#assign licensePrefix = " * ">
+<#assign licenseLast = " */">
+<#include "${project.licensePath}">
+
+/**
+ * Implements hook_schema().
+ */
+ function ${safe_name}_schema() {
+ 
+ }
+ /**
+ * Implements hook_field_schema().
+ */
+ function ${safe_name}_field_schema() {
+ 
+ }
+/**
+ * Implements hook_enable().
+ */
+function ${safe_name}_enable() {
+
+}
+/**
+ * Implements hook_disable().
+ */
+function ${safe_name}_disable() {
+
+}
+/**
+ * Implements hook_install().
+ */
+function ${safe_name}_install() {
+
+}
+/**
+ * Implements hook_uninstall();
+ */
+ function hook_uninstall() {
+ 
+ }
+ 
