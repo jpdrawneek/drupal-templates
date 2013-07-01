@@ -1,27 +1,23 @@
 <?php
 /**
  * @file
+ * ${safe_name}.install
  * @copyright The Royal National Theatre
  * @author John-Paul Drawneek
  */
 
 /**
  * Implements hook_schema().
- *
- * @return array
- *   A schema definition structure array.
  */
 function ${safe_name}_schema() {
   return array();
 }
 /**
  * Implements hook_field_schema().
- *
- * @param array $field
- *   A field structure.
+
  */
 function ${safe_name}_field_schema($field) {
-
+  return array();
 }
 /**
  * Implements hook_install().
@@ -33,5 +29,17 @@ function ${safe_name}_install() {
  * Implements hook_uninstall().
  */
 function ${safe_name}_uninstall() {
+
+}
+/**
+ * Implements hook_enable().
+ */
+function ${safe_name}_enable() {
+
+}
+/**
+ * Implements hook_disable().
+ */
+function ${safe_name}_disable() {
 
 }
