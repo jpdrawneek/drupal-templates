@@ -1,9 +1,12 @@
 name = ${real_name}
-description = This needs to be replaced.
+description = This is required and needs replacing.
 core = 7.x
-;package = 
-;php = 
-version = 7.x-1.0
-;dependencies[] = 
-;files[] = 
-;configure = 
+; stylesheets[all][] =
+; scripts[] =
+; files[] =
+; dependencies[] =
+; package =
+php = 5.2
+version = 7.x-1.0 
+; configure =
+

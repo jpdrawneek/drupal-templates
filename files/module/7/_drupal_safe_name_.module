@@ -1,13 +1,15 @@
 <?php
-<#assign licenseFirst = "/** ">
-<#assign licensePrefix = " * ">
-<#assign licenseLast = " */">
-<#include "${project.licensePath}">
+/**
+ * @file
+ * ${safe_name}.module
+ * @copyright The Royal National Theatre
+ * @author John-Paul Drawneek
+ */
 
 /**
  * Implements hook_menu().
  */
-function ${safe_name}_menu () {
+function ${safe_name}_menu() {
   return array();
 }
 /**

@@ -1,21 +1,36 @@
 <?php
-<#assign licenseFirst = "/** ">
-<#assign licensePrefix = " * ">
-<#assign licenseLast = " */">
-<#include "${project.licensePath}">
+/**
+ * @file
+ * ${safe_name}.install
+ * @copyright The Royal National Theatre
+ * @author John-Paul Drawneek
+ */
 
 /**
  * Implements hook_schema().
  */
- function ${safe_name}_schema() {
- 
- }
- /**
+function ${safe_name}_schema() {
+  return array();
+}
+/**
  * Implements hook_field_schema().
+
  */
- function ${safe_name}_field_schema() {
- 
- }
+function ${safe_name}_field_schema($field) {
+  return array();
+}
+/**
+ * Implements hook_install().
+ */
+function ${safe_name}_install() {
+
+}
+/**
+ * Implements hook_uninstall().
+ */
+function ${safe_name}_uninstall() {
+
+}
 /**
  * Implements hook_enable().
  */
@@ -28,16 +43,3 @@ function ${safe_name}_enable() {
 function ${safe_name}_disable() {
 
 }
-/**
- * Implements hook_install().
- */
-function ${safe_name}_install() {
-
-}
-/**
- * Implements hook_uninstall();
- */
- function hook_uninstall() {
- 
- }
- 
